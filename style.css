@@ -1,0 +1,146 @@
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  /*style of main-content*/
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+}
+
+/* Set the container to flex and adjust the height of the body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Basic styling for the app bar */
+.app-bar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  color: #ff9900;
+}
+
+/* Basic styling for the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.requirementText {
+  text-align: center;
+}
+
+.indexText {
+  font-size: 35px;
+  text-align: center;
+}
+
+.jobheader {
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Set a box style for form fields */
+.form-field {
+  margin-bottom: 20px;
+  padding-left: 500px;
+}
+
+.form-field label {
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input,
+.form-field textarea,
+.form-field select {
+  width: 15%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.radio-options,
+.checkbox-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="radio"],
+.form-field input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button, /*designing the buttons*/
+.reset-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.submit-button:hover,   /*set style for hover affect of both boxes*/
+.reset-button:hover {
+  background-color: #ff9900;
+  transition: 0.5s;
+}
